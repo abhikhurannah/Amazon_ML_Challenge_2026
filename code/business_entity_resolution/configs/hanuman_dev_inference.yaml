@@ -1,0 +1,16 @@
+# Local inference configuration corresponding to the supplied Track FA logs.
+inherit: track_fa.yaml
+paths:
+  work_dir: work_hanuman_dev
+  data_dir: ../../dataset
+  output_dir: ../../reproduced_output
+  validator: ../../utils/validate_submission.py
+checkpoint:
+  enabled: false
+  restore_from: null
+  start_from: null
+  keep_stages: []
+  restore_keep: []
+  restore_ignore: []
+run:
+  inference_only: true

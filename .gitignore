@@ -1,0 +1,31 @@
+# Local datasets, packaged models, and generated pipeline outputs
+/dataset/
+/output/
+/results/
+/reproduced_output/
+/retrained_output/
+/code/business_entity_resolution/artifacts/
+work/
+work_*/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
+build/
+dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.log
