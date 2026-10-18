@@ -285,13 +285,6 @@ model evaluation are distinct checks.
 | GPU or host memory exhaustion | Review batch sizes and chunk/shard sizes in the config, and check available resources before restarting. |
 | Package verifier fails | Restore missing original artifacts or inspect which listed file differs from the original manifest. |
 
-## Provenance and documentation
-
-The supplied pipeline and trained artifacts reuse the
-[Mveen3/amazon-ml-challange implementation](https://github.com/Mveen3/amazon-ml-challange/).
-The team name identifies the submission and does not imply original authorship of
-all reused architecture or code. No upstream repository license file was present
-in the supplied tree; this repository does not add a license claim for that code.
 
 Further details:
 
